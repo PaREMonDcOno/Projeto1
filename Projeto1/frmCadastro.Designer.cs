@@ -47,6 +47,7 @@
             this.dvgCadastro.Size = new System.Drawing.Size(372, 170);
             this.dvgCadastro.TabIndex = 0;
             this.dvgCadastro.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dvgCadastro.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dvgCadastro_MouseDoubleClick);
             // 
             // btnSalvar
             // 
@@ -57,6 +58,7 @@
             this.btnSalvar.TabIndex = 1;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnVoltar
             // 
