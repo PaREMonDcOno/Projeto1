@@ -32,6 +32,7 @@
             this.btnCadastro = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnCadUsuario = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMenu
@@ -75,11 +76,22 @@
             this.btnCadUsuario.UseVisualStyleBackColor = true;
             this.btnCadUsuario.Click += new System.EventHandler(this.btnCadUsuario_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(340, 170);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 110);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Cadastro";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCadUsuario);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCadastro);
@@ -98,5 +110,6 @@
         private System.Windows.Forms.Button btnCadastro;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnCadUsuario;
+        private System.Windows.Forms.Button button1;
     }
 }
